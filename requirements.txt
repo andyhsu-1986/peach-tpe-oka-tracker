@@ -1,0 +1,6 @@
+# 雲端免開機自動化依賴套件清單
+# 採用新版官方 Google GenAI SDK 與 Playwright 無頭瀏覽器引擎
+requests>=2.32.0
+google-genai>=1.0.0
+playwright>=1.48.0
+beautifulsoup4>=4.12.3

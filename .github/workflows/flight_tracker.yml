@@ -1,0 +1,70 @@
+name: Peach Aviation TPE-OKA Flight Tracker
+
+on:
+  schedule:
+    # 每 2 小時執行一次（UTC 時間整點，避開尖峰排隊）
+    - cron: '15 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      force_notify:
+        description: '是否強制發送 Email 測試報告 (true/false)'
+        required: false
+        default: 'false'
+      dry_run:
+        description: '是否使用模擬價格測試系統流程 (true/false)'
+        required: false
+        default: 'false'
+
+# 賦予 GitHub Actions 寫入 Repository 的權限，確保歷史價格 JSON 可自動 Commit & Push
+permissions:
+  contents: write
+
+jobs:
+  track-flights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: 1. 檢出專案原始碼 (Checkout Repository)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 2. 設置 Python 3.11 執行環境與 Pip 快取
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: 3. 安裝 Python 依賴套件與 Playwright 瀏覽器核心
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: 4. 執行樂桃航空雙向監控與 Gemini 智慧決策腳本
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
+          FORCE_NOTIFY: ${{ github.event.inputs.force_notify || 'false' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          python flight_tracker.py
+
+      - name: 5. 雲端持久化：自動 Commit 與 Push 歷史水位資料庫
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if [ -f data/price_history.json ]; then
+            git add data/price_history.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(data): update flight price history [skip ci]"
+              git push origin HEAD:${{ github.ref_name }}
+              echo "✅ 歷史價格 JSON 已成功寫回 GitHub Repository！"
+            else
+              echo "ℹ️ 歷史價格檔案無變更，略過 Git Push。"
+            fi
+          fi
