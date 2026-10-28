@@ -580,14 +580,22 @@ class GeminiDecisionAdvisor:
             from google.genai import types
 
             client = genai.Client(api_key=self.api_key)
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=0.2,
-                    response_mime_type="application/json",
-                ),
-            )
+            response = None
+            for model_name in ("gemini-3.8-flash", "gemini-2.5-flash"):
+                try:
+                    response = client.models.generate_content(
+                        model=model_name,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            temperature=0.2,
+                            response_mime_type="application/json",
+                        ),
+                    )
+                    break
+                except Exception as model_exc:
+                    logger.debug(f"模型 {model_name} 呼叫切換: {model_exc}")
+            if response is None:
+                raise RuntimeError("所有候選 Gemini 模型皆無法呼叫")
             raw_text = (response.text or "").strip()
             parsed = json.loads(raw_text)
             if isinstance(parsed, dict) and "overall_badge" in parsed:
