@@ -1,0 +1,1088 @@
+{
+  "metadata": {
+    "route": "TPE <-> OKA",
+    "outbound_flight": "MM922",
+    "inbound_flight": "MM925",
+    "currency": "TWD",
+    "target_period": "2027-03 (7 Days 6 Nights)",
+    "last_run_at": "2026-10-28 11:30:46+08:00",
+    "total_runs": 1
+  },
+  "combinations": {
+    "2027-03-01_2027-03-07": {
+      "departure_date": "2027-03-01",
+      "return_date": "2027-03-07",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-02_2027-03-08": {
+      "departure_date": "2027-03-02",
+      "return_date": "2027-03-08",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-03_2027-03-09": {
+      "departure_date": "2027-03-03",
+      "return_date": "2027-03-09",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-04_2027-03-10": {
+      "departure_date": "2027-03-04",
+      "return_date": "2027-03-10",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-05_2027-03-11": {
+      "departure_date": "2027-03-05",
+      "return_date": "2027-03-11",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-06_2027-03-12": {
+      "departure_date": "2027-03-06",
+      "return_date": "2027-03-12",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-07_2027-03-13": {
+      "departure_date": "2027-03-07",
+      "return_date": "2027-03-13",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-08_2027-03-14": {
+      "departure_date": "2027-03-08",
+      "return_date": "2027-03-14",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-09_2027-03-15": {
+      "departure_date": "2027-03-09",
+      "return_date": "2027-03-15",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-10_2027-03-16": {
+      "departure_date": "2027-03-10",
+      "return_date": "2027-03-16",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-11_2027-03-17": {
+      "departure_date": "2027-03-11",
+      "return_date": "2027-03-17",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-12_2027-03-18": {
+      "departure_date": "2027-03-12",
+      "return_date": "2027-03-18",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-13_2027-03-19": {
+      "departure_date": "2027-03-13",
+      "return_date": "2027-03-19",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-14_2027-03-20": {
+      "departure_date": "2027-03-14",
+      "return_date": "2027-03-20",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-15_2027-03-21": {
+      "departure_date": "2027-03-15",
+      "return_date": "2027-03-21",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-16_2027-03-22": {
+      "departure_date": "2027-03-16",
+      "return_date": "2027-03-22",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-17_2027-03-23": {
+      "departure_date": "2027-03-17",
+      "return_date": "2027-03-23",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-18_2027-03-24": {
+      "departure_date": "2027-03-18",
+      "return_date": "2027-03-24",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-19_2027-03-25": {
+      "departure_date": "2027-03-19",
+      "return_date": "2027-03-25",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-20_2027-03-26": {
+      "departure_date": "2027-03-20",
+      "return_date": "2027-03-26",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-21_2027-03-27": {
+      "departure_date": "2027-03-21",
+      "return_date": "2027-03-27",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-22_2027-03-28": {
+      "departure_date": "2027-03-22",
+      "return_date": "2027-03-28",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-23_2027-03-29": {
+      "departure_date": "2027-03-23",
+      "return_date": "2027-03-29",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-24_2027-03-30": {
+      "departure_date": "2027-03-24",
+      "return_date": "2027-03-30",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    },
+    "2027-03-25_2027-03-31": {
+      "departure_date": "2027-03-25",
+      "return_date": "2027-03-31",
+      "outbound_mm922": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "inbound_mm925": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "round_trip_total": {
+        "current_price": null,
+        "previous_price": null,
+        "all_time_low": null,
+        "all_time_high": null,
+        "average_price": null,
+        "sample_count": 0,
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-10-28 11:30:46+08:00"
+      },
+      "has_recent_change": false,
+      "history_log": [
+        {
+          "timestamp": "2026-10-28 11:30:46+08:00",
+          "outbound_mm922": null,
+          "inbound_mm925": null,
+          "round_trip_total": null
+        }
+      ]
+    }
+  }
+}

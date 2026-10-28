@@ -1,0 +1,9 @@
+# Python Bytecode & Virtual Environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local HTML preview
+data/latest_report_preview.html

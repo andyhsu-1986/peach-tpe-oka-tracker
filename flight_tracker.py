@@ -149,12 +149,14 @@ class PeachFlightScraper:
         # 快取單日單程票價，避免不同日期組合重複查詢同一天的航班
         self._outbound_cache: Dict[str, Optional[int]] = {}
         self._inbound_cache: Dict[str, Optional[int]] = {}
+        self._consecutive_http_failures: int = 0
 
     def fetch_all_dates(
         self, date_pairs: List[Tuple[str, str]]
     ) -> Tuple[Dict[str, Optional[int]], Dict[str, Optional[int]]]:
         """
         批次取得所有需要的去程日期 (MM922) 與回程日期 (MM925) 單程票價。
+        具備快速熔斷防呆：當連續 2 個日期因遠期未開盤或連線逾時無報價時，自動跳過後續重複等待，確保數秒內完成！
         """
         unique_outbound_dates = sorted({dep for dep, _ in date_pairs})
         unique_inbound_dates = sorted({ret for _, ret in date_pairs})
@@ -170,25 +172,44 @@ class PeachFlightScraper:
         # 實戰環境：先嘗試使用 Playwright 批次或單點擷取樂桃官網報價
         playwright_ok = self._try_fetch_via_playwright(unique_outbound_dates, unique_inbound_dates)
         if not playwright_ok:
-            logger.info("ℹ️ Playwright 動態攔截未取得完整開盤資料，啟動輕量級 HTTP 安全探測與防呆處理...")
+            logger.info("ℹ️ Playwright 動態攔截未取得完整開盤資料，啟動輕量級 HTTP 安全探測與快速熔斷防呆處理...")
 
         for d in unique_outbound_dates:
             if d not in self._outbound_cache:
-                self._outbound_cache[d] = self._probe_single_flight_http(
-                    origin=ORIGIN_AIRPORT,
-                    destination=DEST_AIRPORT,
-                    flight_date=d,
-                    flight_no=OUTBOUND_FLIGHT_NO,
-                )
+                if self._consecutive_http_failures >= 2:
+                    self._outbound_cache[d] = None
+                else:
+                    price = self._probe_single_flight_http(
+                        origin=ORIGIN_AIRPORT,
+                        destination=DEST_AIRPORT,
+                        flight_date=d,
+                        flight_no=OUTBOUND_FLIGHT_NO,
+                    )
+                    self._outbound_cache[d] = price
+                    if price is None:
+                        self._consecutive_http_failures += 1
+                    else:
+                        self._consecutive_http_failures = 0
 
         for d in unique_inbound_dates:
             if d not in self._inbound_cache:
-                self._inbound_cache[d] = self._probe_single_flight_http(
-                    origin=DEST_AIRPORT,
-                    destination=ORIGIN_AIRPORT,
-                    flight_date=d,
-                    flight_no=INBOUND_FLIGHT_NO,
-                )
+                if self._consecutive_http_failures >= 2:
+                    self._inbound_cache[d] = None
+                else:
+                    price = self._probe_single_flight_http(
+                        origin=DEST_AIRPORT,
+                        destination=ORIGIN_AIRPORT,
+                        flight_date=d,
+                        flight_no=INBOUND_FLIGHT_NO,
+                    )
+                    self._inbound_cache[d] = price
+                    if price is None:
+                        self._consecutive_http_failures += 1
+                    else:
+                        self._consecutive_http_failures = 0
+
+        if self._consecutive_http_failures >= 2:
+            logger.info("⚡ 偵測到遠期航班尚未開盤或端點無回應，已啟動快速熔斷機制，秒速略過剩餘未開盤日期！")
 
         return self._outbound_cache, self._inbound_cache
 
