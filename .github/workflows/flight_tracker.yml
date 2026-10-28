@@ -2,8 +2,8 @@ name: Peach Aviation TPE-OKA Flight Tracker
 
 on:
   schedule:
-    # 每 1 小時執行一次（UTC 時間每小時 15 分，避開整點尖峰排隊）
-    - cron: '15 * * * *'
+    # 每 1 小時自動執行一次（UTC 時間每小時 05 分，即台灣時間每小時 05 分）
+    - cron: '5 * * * *'
   workflow_dispatch:
     inputs:
       force_notify:
@@ -55,15 +55,16 @@ jobs:
 
       - name: 5. 雲端持久化：自動 Commit 與 Push 歷史水位資料庫
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "andyhsu-1986@users.noreply.github.com"
+          git config --local user.name "andyhsu-1986"
           if [ -f data/price_history.json ]; then
             git add data/price_history.json
             if ! git diff --cached --quiet; then
-              git commit -m "chore(data): update flight price history [skip ci]"
+              git pull --rebase origin ${{ github.ref_name }} || true
+              git commit -m "chore(data): update flight price history"
               git push origin HEAD:${{ github.ref_name }}
               echo "✅ 歷史價格 JSON 已成功寫回 GitHub Repository！"
             else
-              echo "ℹ️ 歷史價格檔案無變更，略過 Git Push。"
+              echo "ℹ️ 票價無變動，歷史價格檔案無需重新 Commit，保持排程器活躍。"
             fi
           fi
