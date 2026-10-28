@@ -169,47 +169,39 @@ class PeachFlightScraper:
                 self._inbound_cache[d] = self._generate_simulated_price(d, is_outbound=False)
             return self._outbound_cache, self._inbound_cache
 
-        # 實戰環境：先嘗試使用 Playwright 批次或單點擷取樂桃官網報價
-        playwright_ok = self._try_fetch_via_playwright(unique_outbound_dates, unique_inbound_dates)
-        if not playwright_ok:
-            logger.info("ℹ️ Playwright 動態攔截未取得完整開盤資料，啟動輕量級 HTTP 安全探測與快速熔斷防呆處理...")
+        # 實戰環境：透過並行執行緒池高速查詢 Google Flights 與樂桃結構化即時航班端點
+        from concurrent.futures import ThreadPoolExecutor
 
-        for d in unique_outbound_dates:
-            if d not in self._outbound_cache:
-                if self._consecutive_http_failures >= 2:
-                    self._outbound_cache[d] = None
-                else:
-                    price = self._probe_single_flight_http(
-                        origin=ORIGIN_AIRPORT,
-                        destination=DEST_AIRPORT,
-                        flight_date=d,
-                        flight_no=OUTBOUND_FLIGHT_NO,
-                    )
-                    self._outbound_cache[d] = price
-                    if price is None:
-                        self._consecutive_http_failures += 1
-                    else:
-                        self._consecutive_http_failures = 0
+        logger.info("🌐 正在平行擷取 2027 年 3 月樂桃航空 MM 922 (去程) 與 MM 925 (回程) 即時真實報價...")
 
-        for d in unique_inbound_dates:
-            if d not in self._inbound_cache:
-                if self._consecutive_http_failures >= 2:
-                    self._inbound_cache[d] = None
-                else:
-                    price = self._probe_single_flight_http(
-                        origin=DEST_AIRPORT,
-                        destination=ORIGIN_AIRPORT,
-                        flight_date=d,
-                        flight_no=INBOUND_FLIGHT_NO,
-                    )
-                    self._inbound_cache[d] = price
-                    if price is None:
-                        self._consecutive_http_failures += 1
-                    else:
-                        self._consecutive_http_failures = 0
+        def _fetch_out(d: str) -> Tuple[str, Optional[int]]:
+            return d, self._probe_single_flight_http(
+                origin=ORIGIN_AIRPORT,
+                destination=DEST_AIRPORT,
+                flight_date=d,
+                flight_no=OUTBOUND_FLIGHT_NO,
+            )
 
-        if self._consecutive_http_failures >= 2:
-            logger.info("⚡ 偵測到遠期航班尚未開盤或端點無回應，已啟動快速熔斷機制，秒速略過剩餘未開盤日期！")
+        def _fetch_in(d: str) -> Tuple[str, Optional[int]]:
+            return d, self._probe_single_flight_http(
+                origin=DEST_AIRPORT,
+                destination=ORIGIN_AIRPORT,
+                flight_date=d,
+                flight_no=INBOUND_FLIGHT_NO,
+            )
+
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            for d, price in executor.map(_fetch_out, unique_outbound_dates):
+                self._outbound_cache[d] = price
+            for d, price in executor.map(_fetch_in, unique_inbound_dates):
+                self._inbound_cache[d] = price
+
+        out_found = sum(1 for v in self._outbound_cache.values() if v is not None)
+        in_found = sum(1 for v in self._inbound_cache.values() if v is not None)
+        logger.info(
+            f"✅ 真實報價擷取完成！去程 MM922 成功取得 {out_found}/{len(unique_outbound_dates)} 天，"
+            f"回程 MM925 成功取得 {in_found}/{len(unique_inbound_dates)} 天。"
+        )
 
         return self._outbound_cache, self._inbound_cache
 
@@ -347,37 +339,61 @@ class PeachFlightScraper:
         self, origin: str, destination: str, flight_date: str, flight_no: str
     ) -> Optional[int]:
         """
-        輕量級 HTTP 探測與遠期開盤防呆檢查：
-        1. 檢查目標日期距離今天的天數：廉價航空（樂桃）通常於出發前 180~240 天分階段開賣夏季/冬季航班。
-        2. 嘗試連線樂桃低價月曆 API 端點；若未開盤、回傳 404/403 或無該班次，安全回傳 None。
+        精準擷取指定航班 (MM922 / MM925) 當日即時單程含稅票價 (TWD)：
+        1. 優先透過 Google Flights 結構化公開航班檢索端點，精確匹配 `["MM","922"]` 或 `["MM","925"]` 區塊內嵌之即時新台幣票價。
+        2. 備援查詢樂桃公開搜尋端點。
+        3. 若當日航班售罄、停飛或網路異常，安全回傳 None，絕不阻斷整體工作流。
         """
+        numeric_flt = re.sub(r"\D", "", flight_no)  # "922" or "925"
         try:
-            target_dt = datetime.strptime(flight_date, "%Y-%m-%d").date()
-            today_dt = datetime.now(TW_TZ).date()
-            days_ahead = (target_dt - today_dt).days
+            gf_url = (
+                f"https://www.google.com/travel/flights"
+                f"?q=Flights%20to%20{destination}%20from%20{origin}%20on%20{flight_date}%20oneway"
+                f"&curr=TWD&hl=zh-TW"
+            )
+            resp = requests.get(
+                gf_url,
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/131.0.0.0 Safari/537.36"
+                    ),
+                    "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8",
+                },
+                timeout=15,
+            )
+            if resp.status_code == 200:
+                # 在 Google Flights 資料結構中，["MM","922",null,"樂桃航空"] 後方約 300~900 字元處會緊跟 [[null,價格],"Token...MM922"]
+                for m in re.finditer(rf'\["MM","{numeric_flt}"', resp.text):
+                    window = resp.text[m.end() : m.end() + 1200]
+                    price_match = re.search(
+                        rf'\[\[null,(\d{{3,6}})\],"[^"]*?MM{numeric_flt}', window
+                    )
+                    if not price_match:
+                        price_match = re.search(r'\[\[null,(\d{3,6})\],"', window)
+                    if price_match:
+                        price_val = int(price_match.group(1))
+                        if 1000 <= price_val <= 50000:
+                            return price_val
 
-            # 嘗試呼叫樂桃公開低價檢索端點
+            # 備援：嘗試樂桃搜尋端點
             api_url = (
                 f"https://booking.flypeach.com/tw/flight_search"
                 f"?origin={origin}&destination={destination}&date={flight_date}&flight={flight_no}"
             )
-            resp = self.session.get(api_url, timeout=8)
-            if resp.status_code == 200 and flight_no in resp.text:
-                # 嘗試正則匹配頁面內嵌的票價數值
+            resp2 = self.session.get(api_url, timeout=8)
+            if resp2.status_code == 200 and flight_no in resp2.text:
                 pattern = rf"{flight_no}.*?NT\$\s*([0-9,]+)"
-                match = re.search(pattern, resp.text, re.DOTALL)
+                match = re.search(pattern, resp2.text, re.DOTALL)
                 if match:
                     raw_val = int(match.group(1).replace(",", ""))
                     if 1000 <= raw_val <= 50000:
                         return raw_val
 
-            if days_ahead > 120:
-                logger.debug(
-                    f"⏳ [{flight_no}] {flight_date} (距今 {days_ahead} 天) 尚未開賣或暫無公開報價，安全略過。"
-                )
             return None
         except Exception as exc:
-            logger.debug(f"⚠️ HTTP 探測 [{flight_no} {flight_date}] 發生網路例外，已安全攔截: {exc}")
+            logger.debug(f"⚠️ 探測 [{flight_no} {flight_date}] 發生網路例外，已安全攔截: {exc}")
             return None
 
 
