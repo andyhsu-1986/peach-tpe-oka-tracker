@@ -972,7 +972,10 @@ def main() -> int:
         outbound_prices=outbound_prices,
         inbound_prices=inbound_prices,
     )
-    history_mgr.save()
+    if any_price_changed or not HISTORY_FILE.exists():
+        history_mgr.save()
+    else:
+        logger.info("ℹ️ 本次巡檢票價與前次相同，保持原歷史檔案不覆寫（避免無意義 Git Commit 干擾排程器）。")
 
     # 4. 呼叫 Gemini 進行價格水位評估與決策標籤生成
     advisor = GeminiDecisionAdvisor(api_key=gemini_api_key)
