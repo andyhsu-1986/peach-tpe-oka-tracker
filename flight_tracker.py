@@ -204,9 +204,10 @@ class PeachFlightScraper:
 
     def _plan_a_tfs_endpoint(
         self, origin: str, destination: str, flight_date: str, numeric_flt: str
-    ) -> Optional[int]:
+    ) -> Tuple[Optional[int], bool]:
         """
         【備案一 Plan A】：Google Flights TFS Protobuf 結構化直達檢索端點
+        回傳 (price, is_valid_page)：若已成功取得航班列表頁面但無該班次，代表該日尚未開盤，無須浪費時間重試備案。
         """
         tfs = self._build_tfs_protobuf(origin, destination, flight_date)
         url = f"https://www.google.com/travel/flights/search?tfs={tfs}&curr=TWD&hl=en"
@@ -215,17 +216,20 @@ class PeachFlightScraper:
             "Accept-Language": "en-US,en;q=0.9",
             "Cache-Control": "no-cache",
         }
-        resp = requests.get(url, headers=headers, timeout=12)
+        resp = requests.get(url, headers=headers, timeout=10)
         if resp.status_code == 200:
             price = self._extract_exact_flight_price_from_html(resp.text, numeric_flt)
             if price is not None:
                 self.plan_stats["PlanA_TFS"] += 1
-                return price
-        return None
+                return price, True
+            # 若頁面正常載入且包含其他航空公司航班資料，代表連線並未被封鎖，純粹是該日 MM922/MM925 尚未開賣
+            if len(resp.text) > 50000 and (origin in resp.text and destination in resp.text):
+                return None, True
+        return None, False
 
     def _plan_b_query_endpoint(
         self, origin: str, destination: str, flight_date: str, numeric_flt: str
-    ) -> Optional[int]:
+    ) -> Tuple[Optional[int], bool]:
         """
         【備案二 Plan B】：Google Flights 語義查詢端點 (`?q=Flights+from+...`) + 隨機 User-Agent
         """
@@ -238,17 +242,19 @@ class PeachFlightScraper:
             "User-Agent": random.choice(USER_AGENTS),
             "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8",
         }
-        resp = requests.get(url, headers=headers, timeout=12)
+        resp = requests.get(url, headers=headers, timeout=10)
         if resp.status_code == 200:
             price = self._extract_exact_flight_price_from_html(resp.text, numeric_flt)
             if price is not None:
                 self.plan_stats["PlanB_Query"] += 1
-                return price
-        return None
+                return price, True
+            if len(resp.text) > 50000 and (origin in resp.text and destination in resp.text):
+                return None, True
+        return None, False
 
     def _plan_c_regional_cookie_endpoint(
         self, origin: str, destination: str, flight_date: str, numeric_flt: str
-    ) -> Optional[int]:
+    ) -> Tuple[Optional[int], bool]:
         """
         【備案三 Plan C】：台灣區域域名 (`www.google.com.tw`) + SOCS/CONSENT 免驗證 Cookie + 樂桃官網備援
         當單一 IP 頻繁存取國際網域遭限流或彈出驗證頁面時，透過區域域名與預簽章 Cookie 繞過限制。
@@ -266,27 +272,13 @@ class PeachFlightScraper:
             f"https://www.google.com.tw/travel/flights"
             f"?q={origin}+to+{destination}+{flight_date}+oneway&curr=TWD&hl=zh-TW&gl=TW"
         )
-        resp = requests.get(url, headers=headers, cookies=cookies, timeout=14)
+        resp = requests.get(url, headers=headers, cookies=cookies, timeout=10)
         if resp.status_code == 200:
             price = self._extract_exact_flight_price_from_html(resp.text, numeric_flt)
             if price is not None:
                 self.plan_stats["PlanC_Regional"] += 1
-                return price
-
-        # 終極備援：樂桃官網公開端點探測
-        peach_url = (
-            f"https://booking.flypeach.com/tw/flight_search"
-            f"?origin={origin}&destination={destination}&date={flight_date}&flight=MM{numeric_flt}"
-        )
-        resp2 = requests.get(peach_url, headers=headers, timeout=8)
-        if resp2.status_code == 200 and f"MM{numeric_flt}" in resp2.text:
-            match = re.search(rf"MM{numeric_flt}.*?NT\$\s*([0-9,]+)", resp2.text, re.DOTALL)
-            if match:
-                val = int(match.group(1).replace(",", ""))
-                if 1200 <= val <= 50000:
-                    self.plan_stats["PlanC_Regional"] += 1
-                    return val
-        return None
+                return price, True
+        return None, False
 
     def fetch_single_flight_with_3_fallbacks(
         self, origin: str, destination: str, flight_date: str, flight_no: str
@@ -298,8 +290,8 @@ class PeachFlightScraper:
         """
         numeric_flt = re.sub(r"\D", "", flight_no)
 
-        # 微幅隨機延遲 (0.1~0.4 秒)，避免每小時巡檢產生固定頻率特徵
-        time.sleep(random.uniform(0.1, 0.4))
+        # 微幅隨機延遲 (0.05~0.2 秒)，避免每小時巡檢產生固定頻率特徵
+        time.sleep(random.uniform(0.05, 0.2))
 
         for plan_name, plan_func in (
             ("Plan A (TFS Protobuf)", self._plan_a_tfs_endpoint),
@@ -307,12 +299,15 @@ class PeachFlightScraper:
             ("Plan C (Regional + Cookie Bypass)", self._plan_c_regional_cookie_endpoint),
         ):
             try:
-                min_price = plan_func(origin, destination, flight_date, numeric_flt)
+                min_price, valid_page = plan_func(origin, destination, flight_date, numeric_flt)
                 if min_price is not None:
                     return {
                         "minimum": min_price,
                         "standard": min_price + PEACH_STANDARD_ADDON_TWD,
                     }
+                if valid_page:
+                    # 頁面正常回傳但無此航班（例如 3/28~3/31 換季尚未開盤），直接結束不浪費時間跑後續備案
+                    break
             except Exception as exc:
                 logger.debug(f"⚠️ [{flight_no} {flight_date}] {plan_name} 發生異常，自動切換下一備案: {exc}")
 
@@ -573,7 +568,7 @@ class GeminiDecisionAdvisor:
 
             client = genai.Client(api_key=self.api_key)
             response = None
-            for model_name in ("gemini-3.8-flash", "gemini-2.5-flash"):
+            for model_name in ("gemini-2.5-flash", "gemini-2.0-flash"):
                 try:
                     response = client.models.generate_content(
                         model=model_name,
