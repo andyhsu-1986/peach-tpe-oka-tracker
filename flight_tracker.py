@@ -97,7 +97,8 @@ class MetricStats:
             self.status = "UNAVAILABLE"
             return False
 
-        price_changed = (self.current_price is not None and self.current_price != new_price)
+        # 僅當價格變動達 NT 元(含)以上時才視為有效變動，過濾回程日圓匯率每小時微幅跳動
+        price_changed = (self.current_price is not None and abs(new_price - self.current_price) >= 200)
         first_seen = (self.current_price is None)
 
         self.previous_price = self.current_price
