@@ -7,8 +7,8 @@
     "price_type": "Tax Included (含兩地機場稅)",
     "standard_addon_rule": "Standard 方案含 20kg 託運行李 + 標準選位 (單程 +NT$1,100, 來回 +NT$2,200)",
     "target_period": "2027-03 (7 Days 6 Nights, 25 Combinations)",
-    "last_run_at": "2026-11-06 20:29:19+08:00",
-    "total_runs": 40
+    "last_run_at": "2026-11-06 21:29:18+08:00",
+    "total_runs": 41
   },
   "combinations": {
     "2027-03-01_2027-03-07": {
@@ -20,9 +20,9 @@
         "all_time_low": 5340,
         "all_time_high": 5340,
         "average_price": 5340.0,
-        "sample_count": 38,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
@@ -30,49 +30,49 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 38,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 4712,
-        "previous_price": 4710,
+        "current_price": 4714,
+        "previous_price": 4712,
         "all_time_low": 4710,
         "all_time_high": 5576,
-        "average_price": 5440.98,
-        "sample_count": 35,
+        "average_price": 5420.79,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5812,
-        "previous_price": 5810,
+        "current_price": 5814,
+        "previous_price": 5812,
         "all_time_low": 5810,
         "all_time_high": 6676,
-        "average_price": 6540.98,
-        "sample_count": 35,
+        "average_price": 6520.79,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 10052,
-        "previous_price": 10050,
+        "current_price": 10054,
+        "previous_price": 10052,
         "all_time_low": 10050,
         "all_time_high": 10916,
-        "average_price": 10780.85,
-        "sample_count": 34,
+        "average_price": 10760.08,
+        "sample_count": 35,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 12252,
-        "previous_price": 12250,
+        "current_price": 12254,
+        "previous_price": 12252,
         "all_time_low": 12250,
         "all_time_high": 13116,
-        "average_price": 12980.85,
-        "sample_count": 34,
+        "average_price": 12960.08,
+        "sample_count": 35,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -195,9 +195,9 @@
         "all_time_low": 5340,
         "all_time_high": 5340,
         "average_price": 5340.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
@@ -205,49 +205,49 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3636,
-        "previous_price": 3635,
+        "current_price": 3637,
+        "previous_price": 3636,
         "all_time_low": 3601,
         "all_time_high": 3687,
-        "average_price": 3627.67,
-        "sample_count": 39,
+        "average_price": 3627.9,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4736,
-        "previous_price": 4735,
+        "current_price": 4737,
+        "previous_price": 4736,
         "all_time_low": 4701,
         "all_time_high": 4787,
-        "average_price": 4727.67,
-        "sample_count": 39,
+        "average_price": 4727.9,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8976,
-        "previous_price": 8975,
+        "current_price": 8977,
+        "previous_price": 8976,
         "all_time_low": 8941,
         "all_time_high": 9027,
-        "average_price": 8967.67,
-        "sample_count": 39,
+        "average_price": 8967.9,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 11176,
-        "previous_price": 11175,
+        "current_price": 11177,
+        "previous_price": 11176,
         "all_time_low": 11141,
         "all_time_high": 11227,
-        "average_price": 11167.67,
-        "sample_count": 39,
+        "average_price": 11167.9,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -362,8 +362,8 @@
         "all_time_high": 6440,
         "average_price": 6440.0,
         "sample_count": 37,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 7540,
@@ -372,28 +372,28 @@
         "all_time_high": 7540,
         "average_price": 7540.0,
         "sample_count": 37,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3947,
-        "previous_price": 3945,
+        "current_price": 3948,
+        "previous_price": 3947,
         "all_time_low": 3908,
         "all_time_high": 4002,
-        "average_price": 3935.96,
-        "sample_count": 34,
+        "average_price": 3936.3,
+        "sample_count": 35,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5047,
-        "previous_price": 5045,
+        "current_price": 5048,
+        "previous_price": 5047,
         "all_time_low": 5008,
         "all_time_high": 5102,
-        "average_price": 5035.95,
-        "sample_count": 34,
+        "average_price": 5036.29,
+        "sample_count": 35,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": 10387,
@@ -402,8 +402,8 @@
         "all_time_high": 10442,
         "average_price": 10375.9,
         "sample_count": 33,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": 12587,
@@ -412,8 +412,8 @@
         "all_time_high": 12642,
         "average_price": 12575.9,
         "sample_count": 33,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -527,9 +527,9 @@
         "all_time_low": 5340,
         "all_time_high": 5340,
         "average_price": 5340.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
@@ -537,49 +537,49 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 4319,
-        "previous_price": 4317,
+        "current_price": 4320,
+        "previous_price": 4319,
         "all_time_low": 4277,
         "all_time_high": 4380,
-        "average_price": 4309.63,
-        "sample_count": 39,
+        "average_price": 4309.89,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5419,
-        "previous_price": 5417,
+        "current_price": 5420,
+        "previous_price": 5419,
         "all_time_low": 5377,
         "all_time_high": 5480,
-        "average_price": 5409.63,
-        "sample_count": 39,
+        "average_price": 5409.89,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 9659,
-        "previous_price": 9657,
+        "current_price": 9660,
+        "previous_price": 9659,
         "all_time_low": 9619,
         "all_time_high": 9720,
-        "average_price": 9650.48,
-        "sample_count": 38,
+        "average_price": 9650.72,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 11859,
-        "previous_price": 11857,
+        "current_price": 11860,
+        "previous_price": 11859,
         "all_time_low": 11819,
         "all_time_high": 11920,
-        "average_price": 11850.48,
-        "sample_count": 38,
+        "average_price": 11850.72,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -692,60 +692,60 @@
         "previous_price": 5340,
         "all_time_low": 5340,
         "all_time_high": 6440,
-        "average_price": 6237.37,
-        "sample_count": 38,
+        "average_price": 6214.36,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
         "previous_price": 6440,
         "all_time_low": 6440,
         "all_time_high": 7540,
-        "average_price": 7337.37,
-        "sample_count": 38,
+        "average_price": 7314.36,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3119,
-        "previous_price": 3118,
+        "current_price": 3120,
+        "previous_price": 3119,
         "all_time_low": 3090,
         "all_time_high": 3163,
-        "average_price": 3112.21,
-        "sample_count": 39,
+        "average_price": 3112.4,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4219,
-        "previous_price": 4218,
+        "current_price": 4220,
+        "previous_price": 4219,
         "all_time_low": 4190,
         "all_time_high": 4263,
-        "average_price": 4212.21,
-        "sample_count": 39,
+        "average_price": 4212.4,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8459,
-        "previous_price": 8458,
+        "current_price": 8460,
+        "previous_price": 8459,
         "all_time_low": 8458,
         "all_time_high": 9577,
-        "average_price": 9343.58,
-        "sample_count": 37,
+        "average_price": 9320.33,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 10659,
-        "previous_price": 10658,
+        "current_price": 10660,
+        "previous_price": 10659,
         "all_time_low": 10658,
         "all_time_high": 11777,
-        "average_price": 11543.58,
-        "sample_count": 37,
+        "average_price": 11520.33,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -850,9 +850,9 @@
         "all_time_low": 4940,
         "all_time_high": 4940,
         "average_price": 4940.0,
-        "sample_count": 38,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "sample_count": 39,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
@@ -860,49 +860,49 @@
         "all_time_low": 6040,
         "all_time_high": 6040,
         "average_price": 6040.0,
-        "sample_count": 38,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "sample_count": 39,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3119,
-        "previous_price": 3118,
+        "current_price": 3120,
+        "previous_price": 3119,
         "all_time_low": 3110,
         "all_time_high": 3632,
-        "average_price": 3333.85,
-        "sample_count": 37,
+        "average_price": 3328.22,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4219,
-        "previous_price": 4218,
+        "current_price": 4220,
+        "previous_price": 4219,
         "all_time_low": 4210,
         "all_time_high": 4732,
-        "average_price": 4433.86,
-        "sample_count": 37,
+        "average_price": 4428.23,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8058,
-        "previous_price": 8103,
+        "current_price": 8060,
+        "previous_price": 8058,
         "all_time_low": 8050,
         "all_time_high": 8572,
-        "average_price": 8286.16,
-        "sample_count": 35,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 8279.88,
+        "sample_count": 36,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 10258,
-        "previous_price": 10303,
+        "current_price": 10260,
+        "previous_price": 10258,
         "all_time_low": 10250,
         "all_time_high": 10772,
-        "average_price": 10486.16,
-        "sample_count": 35,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 10479.88,
+        "sample_count": 36,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -1012,63 +1012,63 @@
       "return_date": "2027-03-13",
       "outbound_mm922_min": {
         "current_price": 4940,
-        "previous_price": 5340,
+        "previous_price": 4940,
         "all_time_low": 4940,
         "all_time_high": 5340,
-        "average_price": 5328.89,
-        "sample_count": 36,
+        "average_price": 5318.38,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
-        "previous_price": 6440,
+        "previous_price": 6040,
         "all_time_low": 6040,
         "all_time_high": 6440,
-        "average_price": 6428.89,
-        "sample_count": 36,
+        "average_price": 6418.38,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3118,
-        "previous_price": 3163,
+        "current_price": 3120,
+        "previous_price": 3118,
         "all_time_low": 3090,
         "all_time_high": 3615,
-        "average_price": 3267.28,
-        "sample_count": 36,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 3263.3,
+        "sample_count": 37,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4218,
-        "previous_price": 4263,
+        "current_price": 4220,
+        "previous_price": 4218,
         "all_time_low": 4190,
         "all_time_high": 4715,
-        "average_price": 4367.28,
-        "sample_count": 36,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 4363.3,
+        "sample_count": 37,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8458,
-        "previous_price": 8503,
-        "all_time_low": 8430,
+        "current_price": 8060,
+        "previous_price": 8458,
+        "all_time_low": 8060,
         "all_time_high": 8955,
-        "average_price": 8606.48,
-        "sample_count": 33,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 8590.41,
+        "sample_count": 34,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 10658,
-        "previous_price": 10703,
-        "all_time_low": 10630,
+        "current_price": 10260,
+        "previous_price": 10658,
+        "all_time_low": 10260,
         "all_time_high": 11155,
-        "average_price": 10806.48,
-        "sample_count": 33,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 10790.41,
+        "sample_count": 34,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": true,
       "history_log": [
@@ -1188,6 +1188,15 @@
           "inbound_mm925_std": null,
           "round_trip_total_min": null,
           "round_trip_total_std": null
+        },
+        {
+          "timestamp": "2026-11-06 21:29:18+08:00",
+          "outbound_mm922_min": 4940,
+          "outbound_mm922_std": 6040,
+          "inbound_mm925_min": 3120,
+          "inbound_mm925_std": 4220,
+          "round_trip_total_min": 8060,
+          "round_trip_total_std": 10260
         }
       ]
     },
@@ -1199,60 +1208,60 @@
         "previous_price": 4940,
         "all_time_low": 4140,
         "all_time_high": 4940,
-        "average_price": 4570.77,
-        "sample_count": 39,
+        "average_price": 4580.0,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
         "previous_price": 6040,
         "all_time_low": 5240,
         "all_time_high": 6040,
-        "average_price": 5670.77,
-        "sample_count": 39,
+        "average_price": 5680.0,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 5106,
-        "previous_price": 5103,
+        "current_price": 5107,
+        "previous_price": 5106,
         "all_time_low": 5103,
         "all_time_high": 6592,
-        "average_price": 6261.54,
-        "sample_count": 37,
+        "average_price": 6231.16,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 6206,
-        "previous_price": 6203,
+        "current_price": 6207,
+        "previous_price": 6206,
         "all_time_low": 6203,
         "all_time_high": 7692,
-        "average_price": 7361.54,
-        "sample_count": 37,
+        "average_price": 7331.16,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 10046,
-        "previous_price": 10043,
+        "current_price": 10047,
+        "previous_price": 10046,
         "all_time_low": 10043,
         "all_time_high": 11532,
-        "average_price": 10794.9,
-        "sample_count": 36,
+        "average_price": 10774.69,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 12246,
-        "previous_price": 12243,
+        "current_price": 12247,
+        "previous_price": 12246,
         "all_time_low": 12243,
         "all_time_high": 13732,
-        "average_price": 12994.9,
-        "sample_count": 36,
+        "average_price": 12974.69,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -1393,9 +1402,9 @@
         "all_time_low": 4940,
         "all_time_high": 4940,
         "average_price": 4940.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
@@ -1403,49 +1412,49 @@
         "all_time_low": 6040,
         "all_time_high": 6040,
         "average_price": 6040.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3947,
-        "previous_price": 3945,
+        "current_price": 3948,
+        "previous_price": 3947,
         "all_time_low": 3642,
         "all_time_high": 4002,
-        "average_price": 3886.6,
-        "sample_count": 36,
+        "average_price": 3888.26,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5047,
-        "previous_price": 5045,
+        "current_price": 5048,
+        "previous_price": 5047,
         "all_time_low": 4742,
         "all_time_high": 5102,
-        "average_price": 4986.61,
-        "sample_count": 36,
+        "average_price": 4988.27,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8887,
-        "previous_price": 8885,
+        "current_price": 8888,
+        "previous_price": 8887,
         "all_time_low": 8582,
         "all_time_high": 8942,
-        "average_price": 8826.61,
-        "sample_count": 36,
+        "average_price": 8828.27,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 11087,
-        "previous_price": 11085,
+        "current_price": 11088,
+        "previous_price": 11087,
         "all_time_low": 10782,
         "all_time_high": 11142,
-        "average_price": 11026.61,
-        "sample_count": 36,
+        "average_price": 11028.27,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -1567,60 +1576,60 @@
         "previous_price": 5340,
         "all_time_low": 4940,
         "all_time_high": 5340,
-        "average_price": 5297.9,
-        "sample_count": 38,
+        "average_price": 5298.98,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
         "previous_price": 6440,
         "all_time_low": 6040,
         "all_time_high": 6440,
-        "average_price": 6397.9,
-        "sample_count": 38,
+        "average_price": 6398.98,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3636,
-        "previous_price": 3635,
+        "current_price": 3637,
+        "previous_price": 3636,
         "all_time_low": 3602,
         "all_time_high": 3687,
-        "average_price": 3628.73,
-        "sample_count": 37,
+        "average_price": 3628.95,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4736,
-        "previous_price": 4735,
+        "current_price": 4737,
+        "previous_price": 4736,
         "all_time_low": 4702,
         "all_time_high": 4787,
-        "average_price": 4728.73,
-        "sample_count": 37,
+        "average_price": 4728.95,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8976,
-        "previous_price": 8975,
+        "current_price": 8977,
+        "previous_price": 8976,
         "all_time_low": 8568,
         "all_time_high": 9027,
-        "average_price": 8923.87,
-        "sample_count": 36,
+        "average_price": 8925.31,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 11176,
-        "previous_price": 11175,
+        "current_price": 11177,
+        "previous_price": 11176,
         "all_time_low": 10768,
         "all_time_high": 11227,
-        "average_price": 11123.87,
-        "sample_count": 36,
+        "average_price": 11125.31,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -1733,60 +1742,60 @@
         "previous_price": 6440,
         "all_time_low": 5340,
         "all_time_high": 6440,
-        "average_price": 6282.84,
-        "sample_count": 35,
+        "average_price": 6287.21,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 7540,
         "previous_price": 7540,
         "all_time_low": 6440,
         "all_time_high": 7540,
-        "average_price": 7382.84,
-        "sample_count": 35,
+        "average_price": 7387.21,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3119,
-        "previous_price": 3118,
+        "current_price": 3120,
+        "previous_price": 3119,
         "all_time_low": 3110,
         "all_time_high": 3637,
-        "average_price": 3341.7,
-        "sample_count": 38,
+        "average_price": 3336.02,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4219,
-        "previous_price": 4218,
+        "current_price": 4220,
+        "previous_price": 4219,
         "all_time_low": 4210,
         "all_time_high": 4737,
-        "average_price": 4441.69,
-        "sample_count": 38,
+        "average_price": 4436.01,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 9559,
-        "previous_price": 9558,
+        "current_price": 9560,
+        "previous_price": 9559,
         "all_time_low": 8464,
         "all_time_high": 10077,
-        "average_price": 9629.98,
-        "sample_count": 35,
+        "average_price": 9628.04,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 11759,
-        "previous_price": 11758,
+        "current_price": 11760,
+        "previous_price": 11759,
         "all_time_low": 10664,
         "all_time_high": 12277,
-        "average_price": 11829.98,
-        "sample_count": 35,
+        "average_price": 11828.04,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -1927,9 +1936,9 @@
         "all_time_low": 4940,
         "all_time_high": 4940,
         "average_price": 4940.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
@@ -1937,49 +1946,49 @@
         "all_time_low": 6040,
         "all_time_high": 6040,
         "average_price": 6040.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3636,
-        "previous_price": 3635,
+        "current_price": 3637,
+        "previous_price": 3636,
         "all_time_low": 3601,
         "all_time_high": 3687,
-        "average_price": 3627.06,
-        "sample_count": 37,
+        "average_price": 3627.32,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4736,
-        "previous_price": 4735,
+        "current_price": 4737,
+        "previous_price": 4736,
         "all_time_low": 4701,
         "all_time_high": 4787,
-        "average_price": 4727.06,
-        "sample_count": 37,
+        "average_price": 4727.32,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8576,
-        "previous_price": 8575,
+        "current_price": 8577,
+        "previous_price": 8576,
         "all_time_low": 8541,
         "all_time_high": 8627,
-        "average_price": 8567.63,
-        "sample_count": 36,
+        "average_price": 8567.88,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 10776,
-        "previous_price": 10775,
+        "current_price": 10777,
+        "previous_price": 10776,
         "all_time_low": 10741,
         "all_time_high": 10827,
-        "average_price": 10767.63,
-        "sample_count": 36,
+        "average_price": 10767.88,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -2094,8 +2103,8 @@
         "all_time_high": 6440,
         "average_price": 5896.42,
         "sample_count": 39,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
@@ -2104,28 +2113,28 @@
         "all_time_high": 7540,
         "average_price": 6996.42,
         "sample_count": 39,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3636,
-        "previous_price": 3687,
+        "current_price": 3637,
+        "previous_price": 3636,
         "all_time_low": 3601,
         "all_time_high": 3687,
-        "average_price": 3626.24,
-        "sample_count": 36,
+        "average_price": 3626.53,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4736,
-        "previous_price": 4787,
+        "current_price": 4737,
+        "previous_price": 4736,
         "all_time_low": 4701,
         "all_time_high": 4787,
-        "average_price": 4726.24,
-        "sample_count": 36,
+        "average_price": 4726.53,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": 8576,
@@ -2134,8 +2143,8 @@
         "all_time_high": 10078,
         "average_price": 9589.03,
         "sample_count": 35,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": 10776,
@@ -2144,8 +2153,8 @@
         "all_time_high": 12278,
         "average_price": 11789.03,
         "sample_count": 35,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -2285,60 +2294,60 @@
         "previous_price": 6440,
         "all_time_low": 4940,
         "all_time_high": 6440,
-        "average_price": 6097.89,
-        "sample_count": 38,
+        "average_price": 6106.66,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 7540,
         "previous_price": 7540,
         "all_time_low": 6040,
         "all_time_high": 7540,
-        "average_price": 7197.89,
-        "sample_count": 38,
+        "average_price": 7206.66,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 4319,
-        "previous_price": 4317,
+        "current_price": 4320,
+        "previous_price": 4319,
         "all_time_low": 4310,
         "all_time_high": 4715,
-        "average_price": 4548.08,
-        "sample_count": 36,
+        "average_price": 4541.92,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5419,
-        "previous_price": 5417,
+        "current_price": 5420,
+        "previous_price": 5419,
         "all_time_low": 5410,
         "all_time_high": 5815,
-        "average_price": 5648.08,
-        "sample_count": 36,
+        "average_price": 5641.92,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 10759,
-        "previous_price": 10757,
+        "current_price": 10760,
+        "previous_price": 10759,
         "all_time_low": 9607,
         "all_time_high": 11155,
-        "average_price": 10651.16,
-        "sample_count": 34,
+        "average_price": 10654.27,
+        "sample_count": 35,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 12959,
-        "previous_price": 12957,
+        "current_price": 12960,
+        "previous_price": 12959,
         "all_time_low": 11807,
         "all_time_high": 13355,
-        "average_price": 12851.16,
-        "sample_count": 34,
+        "average_price": 12854.27,
+        "sample_count": 35,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -2478,60 +2487,60 @@
         "previous_price": 4140,
         "all_time_low": 4140,
         "all_time_high": 4540,
-        "average_price": 4455.8,
-        "sample_count": 38,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 4447.7,
+        "sample_count": 39,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 5240,
         "previous_price": 5240,
         "all_time_low": 5240,
         "all_time_high": 5640,
-        "average_price": 5555.8,
-        "sample_count": 38,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 5547.7,
+        "sample_count": 39,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 5106,
-        "previous_price": 5103,
+        "current_price": 5107,
+        "previous_price": 5106,
         "all_time_low": 5103,
         "all_time_high": 6557,
-        "average_price": 5938.92,
-        "sample_count": 39,
+        "average_price": 5918.12,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 6206,
-        "previous_price": 6203,
+        "current_price": 6207,
+        "previous_price": 6206,
         "all_time_low": 6203,
         "all_time_high": 7657,
-        "average_price": 7038.92,
-        "sample_count": 39,
+        "average_price": 7018.12,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 9243,
-        "previous_price": 9317,
+        "current_price": 9247,
+        "previous_price": 9243,
         "all_time_low": 9243,
         "all_time_high": 11097,
-        "average_price": 10398.28,
-        "sample_count": 37,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 10367.98,
+        "sample_count": 38,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 11443,
-        "previous_price": 11517,
+        "current_price": 11447,
+        "previous_price": 11443,
         "all_time_low": 11443,
         "all_time_high": 13297,
-        "average_price": 12598.28,
-        "sample_count": 37,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 12567.98,
+        "sample_count": 38,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -2671,60 +2680,60 @@
         "previous_price": 4140,
         "all_time_low": 3740,
         "all_time_high": 4940,
-        "average_price": 4485.94,
-        "sample_count": 37,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 4476.84,
+        "sample_count": 38,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 5240,
         "previous_price": 5240,
         "all_time_low": 4840,
         "all_time_high": 6040,
-        "average_price": 5585.94,
-        "sample_count": 37,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 5576.84,
+        "sample_count": 38,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3947,
-        "previous_price": 3945,
+        "current_price": 3948,
+        "previous_price": 3947,
         "all_time_low": 3908,
         "all_time_high": 4002,
-        "average_price": 3937.45,
-        "sample_count": 37,
+        "average_price": 3937.73,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5047,
-        "previous_price": 5045,
+        "current_price": 5048,
+        "previous_price": 5047,
         "all_time_low": 5008,
         "all_time_high": 5102,
-        "average_price": 5037.45,
-        "sample_count": 37,
+        "average_price": 5037.73,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8085,
-        "previous_price": 8142,
+        "current_price": 8088,
+        "previous_price": 8085,
         "all_time_low": 7693,
         "all_time_high": 8887,
-        "average_price": 8419.77,
-        "sample_count": 35,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 8410.55,
+        "sample_count": 36,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 10285,
-        "previous_price": 10342,
+        "current_price": 10288,
+        "previous_price": 10285,
         "all_time_low": 9893,
         "all_time_high": 11087,
-        "average_price": 10619.77,
-        "sample_count": 35,
-        "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "average_price": 10610.55,
+        "sample_count": 36,
+        "status": "AVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -2875,8 +2884,8 @@
         "all_time_high": 7040,
         "average_price": 6975.13,
         "sample_count": 37,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 8140,
@@ -2885,28 +2894,28 @@
         "all_time_high": 8140,
         "average_price": 8075.13,
         "sample_count": 37,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3947,
-        "previous_price": 3945,
+        "current_price": 3948,
+        "previous_price": 3947,
         "all_time_low": 3908,
         "all_time_high": 4002,
-        "average_price": 3936.5,
-        "sample_count": 37,
+        "average_price": 3936.8,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5047,
-        "previous_price": 5045,
+        "current_price": 5048,
+        "previous_price": 5047,
         "all_time_low": 5008,
         "all_time_high": 5102,
-        "average_price": 5036.5,
-        "sample_count": 37,
+        "average_price": 5036.8,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": 10987,
@@ -2915,8 +2924,8 @@
         "all_time_high": 11042,
         "average_price": 10941.55,
         "sample_count": 35,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": 13187,
@@ -2925,8 +2934,8 @@
         "all_time_high": 13242,
         "average_price": 13141.55,
         "sample_count": 35,
-        "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "status": "UNAVAILABLE",
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3058,9 +3067,9 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 7540,
@@ -3068,49 +3077,49 @@
         "all_time_low": 7540,
         "all_time_high": 7540,
         "average_price": 7540.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3636,
-        "previous_price": 3635,
+        "current_price": 3637,
+        "previous_price": 3636,
         "all_time_low": 3601,
         "all_time_high": 3687,
-        "average_price": 3627.0,
-        "sample_count": 36,
+        "average_price": 3627.27,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4736,
-        "previous_price": 4735,
+        "current_price": 4737,
+        "previous_price": 4736,
         "all_time_low": 4701,
         "all_time_high": 4787,
-        "average_price": 4727.0,
-        "sample_count": 36,
+        "average_price": 4727.27,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 10076,
-        "previous_price": 10075,
+        "current_price": 10077,
+        "previous_price": 10076,
         "all_time_low": 10041,
         "all_time_high": 10127,
-        "average_price": 10066.53,
-        "sample_count": 35,
+        "average_price": 10066.82,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 12276,
-        "previous_price": 12275,
+        "current_price": 12277,
+        "previous_price": 12276,
         "all_time_low": 12241,
         "all_time_high": 12327,
-        "average_price": 12266.53,
-        "sample_count": 35,
+        "average_price": 12266.82,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3224,9 +3233,9 @@
         "all_time_low": 5340,
         "all_time_high": 5340,
         "average_price": 5340.0,
-        "sample_count": 38,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
@@ -3234,49 +3243,49 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 38,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3119,
-        "previous_price": 3118,
+        "current_price": 3120,
+        "previous_price": 3119,
         "all_time_low": 3110,
         "all_time_high": 3632,
-        "average_price": 3352.59,
-        "sample_count": 36,
+        "average_price": 3346.3,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4219,
-        "previous_price": 4218,
+        "current_price": 4220,
+        "previous_price": 4219,
         "all_time_low": 4210,
         "all_time_high": 4732,
-        "average_price": 4452.59,
-        "sample_count": 36,
+        "average_price": 4446.3,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 8459,
-        "previous_price": 8458,
+        "current_price": 8460,
+        "previous_price": 8459,
         "all_time_low": 8450,
         "all_time_high": 8972,
-        "average_price": 8685.34,
-        "sample_count": 35,
+        "average_price": 8679.08,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 10659,
-        "previous_price": 10658,
+        "current_price": 10660,
+        "previous_price": 10659,
         "all_time_low": 10650,
         "all_time_high": 11172,
-        "average_price": 10885.34,
-        "sample_count": 35,
+        "average_price": 10879.08,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3398,60 +3407,60 @@
         "previous_price": 6440,
         "all_time_low": 5340,
         "all_time_high": 7040,
-        "average_price": 6322.06,
-        "sample_count": 39,
+        "average_price": 6325.01,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 7540,
         "previous_price": 7540,
         "all_time_low": 6440,
         "all_time_high": 8140,
-        "average_price": 7422.06,
-        "sample_count": 39,
+        "average_price": 7425.01,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3947,
-        "previous_price": 3945,
+        "current_price": 3948,
+        "previous_price": 3947,
         "all_time_low": 3089,
         "all_time_high": 4002,
-        "average_price": 3335.11,
-        "sample_count": 38,
+        "average_price": 3350.83,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 5047,
-        "previous_price": 5045,
+        "current_price": 5048,
+        "previous_price": 5047,
         "all_time_low": 4189,
         "all_time_high": 5102,
-        "average_price": 4435.1,
-        "sample_count": 38,
+        "average_price": 4450.82,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 10387,
-        "previous_price": 10385,
+        "current_price": 10388,
+        "previous_price": 10387,
         "all_time_low": 8429,
         "all_time_high": 10697,
-        "average_price": 9609.99,
-        "sample_count": 37,
+        "average_price": 9630.46,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 12587,
-        "previous_price": 12585,
+        "current_price": 12588,
+        "previous_price": 12587,
         "all_time_low": 10629,
         "all_time_high": 12897,
-        "average_price": 11809.99,
-        "sample_count": 37,
+        "average_price": 11830.46,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3600,60 +3609,60 @@
         "previous_price": 4140,
         "all_time_low": 4140,
         "all_time_high": 5340,
-        "average_price": 4831.89,
-        "sample_count": 37,
+        "average_price": 4813.68,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 5240,
         "previous_price": 5240,
         "all_time_low": 5240,
         "all_time_high": 6440,
-        "average_price": 5931.89,
-        "sample_count": 37,
+        "average_price": 5913.68,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
-        "current_price": 3636,
-        "previous_price": 3635,
+        "current_price": 3637,
+        "previous_price": 3636,
         "all_time_low": 3602,
         "all_time_high": 3687,
-        "average_price": 3628.65,
-        "sample_count": 37,
+        "average_price": 3628.87,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
-        "current_price": 4736,
-        "previous_price": 4735,
+        "current_price": 4737,
+        "previous_price": 4736,
         "all_time_low": 4702,
         "all_time_high": 4787,
-        "average_price": 4728.65,
-        "sample_count": 37,
+        "average_price": 4728.87,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
-        "current_price": 7776,
-        "previous_price": 7775,
+        "current_price": 7777,
+        "previous_price": 7776,
         "all_time_low": 7775,
         "all_time_high": 8972,
-        "average_price": 8465.48,
-        "sample_count": 35,
+        "average_price": 8446.36,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
-        "current_price": 9976,
-        "previous_price": 9975,
+        "current_price": 9977,
+        "previous_price": 9976,
         "all_time_low": 9975,
         "all_time_high": 11172,
-        "average_price": 10665.48,
-        "sample_count": 35,
+        "average_price": 10646.36,
+        "sample_count": 36,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3784,20 +3793,20 @@
         "previous_price": 7040,
         "all_time_low": 4940,
         "all_time_high": 7040,
-        "average_price": 5531.68,
-        "sample_count": 36,
+        "average_price": 5572.45,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 8140,
         "previous_price": 8140,
         "all_time_low": 6040,
         "all_time_high": 8140,
-        "average_price": 6631.68,
-        "sample_count": 36,
+        "average_price": 6672.45,
+        "sample_count": 37,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
         "current_price": null,
@@ -3807,7 +3816,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
         "current_price": null,
@@ -3817,7 +3826,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": null,
@@ -3827,7 +3836,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": null,
@@ -3837,7 +3846,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3888,9 +3897,9 @@
         "all_time_low": 5340,
         "all_time_high": 5340,
         "average_price": 5340.0,
-        "sample_count": 38,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
@@ -3898,9 +3907,9 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 38,
+        "sample_count": 39,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
         "current_price": null,
@@ -3910,7 +3919,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
         "current_price": null,
@@ -3920,7 +3929,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": null,
@@ -3930,7 +3939,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": null,
@@ -3940,7 +3949,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -3964,9 +3973,9 @@
         "all_time_low": 5340,
         "all_time_high": 5340,
         "average_price": 5340.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6440,
@@ -3974,9 +3983,9 @@
         "all_time_low": 6440,
         "all_time_high": 6440,
         "average_price": 6440.0,
-        "sample_count": 39,
+        "sample_count": 40,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
         "current_price": null,
@@ -3986,7 +3995,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
         "current_price": null,
@@ -3996,7 +4005,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": null,
@@ -4006,7 +4015,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": null,
@@ -4016,7 +4025,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
@@ -4040,9 +4049,9 @@
         "all_time_low": 4940,
         "all_time_high": 4940,
         "average_price": 4940.0,
-        "sample_count": 37,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "outbound_mm922_std": {
         "current_price": 6040,
@@ -4050,9 +4059,9 @@
         "all_time_low": 6040,
         "all_time_high": 6040,
         "average_price": 6040.0,
-        "sample_count": 37,
+        "sample_count": 38,
         "status": "AVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_min": {
         "current_price": null,
@@ -4062,7 +4071,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "inbound_mm925_std": {
         "current_price": null,
@@ -4072,7 +4081,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_min": {
         "current_price": null,
@@ -4082,7 +4091,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "round_trip_total_std": {
         "current_price": null,
@@ -4092,7 +4101,7 @@
         "average_price": null,
         "sample_count": 0,
         "status": "UNAVAILABLE",
-        "last_updated": "2026-11-06 20:29:19+08:00"
+        "last_updated": "2026-11-06 21:29:18+08:00"
       },
       "has_recent_change": false,
       "history_log": [
